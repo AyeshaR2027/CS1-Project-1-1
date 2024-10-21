@@ -1,28 +1,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Sixtyfour+Convergence&display=swap');
 
 body{
-    background-color: antiquewhite;
-    font-family:"Afacad Flux"
+    background:linear-gradient(110.3deg, rgb(238, 179, 123) 8.7%, rgb(216, 103, 77) 47.5%, rgb(114, 43, 54) 89.1%);
+    font-family:"Afacad Flux";
+    width: 100%;
+    height: 100%;
+
 }
+
 
 
 h1{
     text-align: center;
     padding:30px;
     margin-bottom: 20px; 
+    text-shadow: 5px 5px 3px brown;
 }
 .border {
-    border: 30px dotted black;
-    background: brown; 
+    border: 30px groove brown;
+    background: whitesmoke; 
 }
 img{
     border-width: 13px; 
-    border-style: dotted;
-    border-color: burlywood; 
+    border-style: dashed;
+    border-color: beige; 
     border-radius: 35%;  
     padding: 10px; 
 }
 p{
-    color: brown;
+    color: whitesmoke;
     font-family:"Afacad Flux", sans-serif;
+}
+
+ul{
+    background-color:antiquewhite;
+    border-radius: 15px; 
+}
+
+ol{
+    background-color: whitesmoke;
+    border-radius: 7px; 
+}
+
+.centered{
+    text-align: center;
+    margin: auto;
 }

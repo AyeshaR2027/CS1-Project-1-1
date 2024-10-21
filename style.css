@@ -1,1 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Sixtyfour+Convergence&display=swap');
 
+body{
+    background-color: antiquewhite;
+    font-family:"Afacad Flux"
+}
+
+
+h1{
+    text-align: center;
+    padding:30px;
+    margin-bottom: 20px; 
+}
+.border {
+    border: 30px dotted black;
+    background: brown; 
+}
+img{
+    border-width: 13px; 
+    border-style: dotted;
+    border-color: burlywood; 
+    border-radius: 35%;  
+    padding: 10px; 
+}
+p{
+    color: brown;
+    font-family:"Afacad Flux", sans-serif;
+}
